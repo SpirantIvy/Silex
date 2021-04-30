@@ -1,0 +1,11 @@
+---
+application:
+  name: "silex"
+  project: "Silex"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-silex"
+  routes:
+  - application_name: "silex"
+    paths:
+    - "/*"
